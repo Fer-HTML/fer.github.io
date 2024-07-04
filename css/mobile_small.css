@@ -1,0 +1,54 @@
+.color-Mode
+{
+    height: 50px;
+
+    margin-left: .5rem;
+}
+
+
+/* Estilos de mi foto mobile_small */
+
+.container img:nth-child(1) {
+    width: 100%;
+    object-fit: cover;
+    height: 20rem;
+}
+.container img:nth-child(2) {
+    position: relative;
+    top: -8rem;
+    border-radius: 50%;
+    padding: 0;
+    border: 5px solid rgb(21, 21, 24);
+}
+
+.foto-presentacion 
+{
+    width: 250px; /* Ancho deseado */
+    height: 250px; /* Altura deseada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor circular */
+    display: block; /* Elimina el espacio en línea debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+
+/* #testing Podriamos implementar algo, sera luego
+{
+    background-color: white;
+} */
+
+
+/* Estilos de los logos mobile_small */
+
+.logos
+{
+    height: 200px;
+    position: relative;
+    margin: 1rem;
+}
+
+.spancito
+{
+    transform: translateY(-100px); /* Ajusta este valor según sea necesario */
+    text-align: center;
+}

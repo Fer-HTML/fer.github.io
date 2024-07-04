@@ -1,0 +1,58 @@
+
+
+.color-Mode
+{
+    height: 50px;
+
+    margin-left: .5rem;
+}
+
+/* Estilos de mi foto modo Desktop */
+
+.container img:nth-child(1) {
+    width: 100%;
+    object-fit: cover;
+    object-position: 25% 30%;
+    height: 20rem;
+}
+.container img:nth-child(2) {
+    position: relative;
+    top: -6rem;
+    border-radius: 50%;
+    padding: 0;
+    border: 5px solid rgb(21, 21, 24);
+}
+
+.foto-presentacion 
+{
+    width: 300px; /* Ancho deseado */
+    height: 300px; /* Altura deseada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor circular */
+    display: block; /* Elimina el espacio en línea debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+
+
+.skills-title
+{
+    
+    padding-bottom: 120px;
+
+    font-size: 5rem
+}
+
+/* Estilos de los logos desktop */
+
+.logos
+{
+    height: 300px;
+    position: relative;
+    margin: 1rem;
+}
+
+.spancito
+{
+    transform: translateY(-40px); /* Ajusta este valor según sea necesario */
+}

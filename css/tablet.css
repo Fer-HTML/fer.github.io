@@ -1,0 +1,67 @@
+.color-Mode
+{
+    height: 50px;
+
+    margin-left: .5rem;
+}
+
+/* Estilos de mi foto en modo tablet */
+
+.container img:nth-child(1) {
+    width: 100%;
+    object-fit: cover;
+    object-position: 25% 30%;
+    height: 30%;
+}
+.container img:nth-child(2) {
+    position: relative;
+    top: -10rem;
+    border-radius: 50%;
+    padding: 0;
+    border: 5px solid rgb(21, 21, 24);
+}
+
+
+
+.span1, .span2 {
+    display: block; /* Hace que cada span se comporte como un bloque */
+    
+    margin-bottom: 30px; /* Espacio entre los spans */
+
+    text-align: center;
+
+    font-size: 5rem;
+}
+
+.foto-presentacion 
+{
+    width: 400px; /* Ancho deseado */
+    height: 400px; /* Altura deseada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor circular */
+    display: block; /* Elimina el espacio en línea debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+
+
+
+
+
+.skills-title
+{
+    
+    padding-bottom: 120px;
+
+    font-size: 5rem
+}
+
+
+/* Estilos de los logos tablet */
+
+.logos
+{
+    height: 300px;
+    position: relative;
+    margin: 1rem;
+}
